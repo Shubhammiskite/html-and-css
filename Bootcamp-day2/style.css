@@ -1,0 +1,184 @@
+/* navbar & tooltil css */
+
+.edbalogo {
+    height: 45px;
+}
+
+.navbar.sticky-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar {
+    background-color: #151416 !important;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+.custom-tooltip .tooltip-inner {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.custom-tooltip .arrow::before {
+    border-top-color: #007bff !important;
+}
+
+.logotool-tip .tooltip-inner {
+    background-color: orange;
+    color: black;
+}
+
+.logotool-tip .arrow::before {
+    border-top-color: orange !important;
+}
+
+.bootlink {
+    color: white;
+}
+
+/* main content css */
+
+.block0 {
+    display: flex;
+    background-color: #222831;
+    color: white;
+    align-items: center;
+    padding: 20px;
+}
+
+.topleft {
+    margin-left: 20px;
+}
+
+.block1,
+.block2,
+.block3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.block1 img,
+.block2 img,
+.block3 img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 0;
+    font-weight: 800;
+    margin-left: 20px;
+}
+
+#imagetop {
+    width: 600px;
+    height: auto;
+}
+
+p {
+    font-size: 15px;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+/* footer css */
+
+.pinstripes-bg {
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+.footer-top .section-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.btn-primary.btn-rounded {
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+.footer-bottom {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.social-nav {
+    list-style: none;
+    padding: 0;
+    margin-left: 55rem;
+}
+
+.social-nav .nav-item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-nav {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.footer-nav .nav-item {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.footer-nav .nav-link {
+    color: white;
+}
+
+.footer-nav .nav-link:hover {
+    color: #333;
+}
+
+.footer-copyright {
+    margin-right: 15px;
+}
+
+.soc-footer-logo {
+    margin-left: auto;
+}
+
+.icon-nav-link {
+    margin-left: 2rem;
+}
+
+/* contact page css */
+.mt-5 {
+    margin-top: 6rem !important;
+}
+
+.contactheading {
+    text-align: center;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
