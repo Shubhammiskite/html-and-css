@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Box Sizing Example</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    p {
+      text-align: center;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: blue;
+      padding: 20px;
+    }
+
+
+    .header {
+      background-color: #db3450;
+      color: white;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+
+
+    .main-content {
+      background-color: #ffffff;
+      border: 2px solid #ce0606;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+
+    .footer {
+      background-color: #00ff26;
+      color: white;
+      padding: 10px;
+    }
+
+
+    img {
+      background-color: black;
+      box-sizing: border-box;
+      max-width: 100%;
+      height: 400px;
+      display: block;
+
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="header">
+      <h1>HEADING</h1>
+    </div>
+
+    <div class="main-content">
+      <h2>MAIN CONTENT</h2>
+      <p>This is the portion of main content</p>
+      <img src="/image.jpg" alt="The place the for content">
+    </div>
+
+    <div class="footer">
+      <p>FOOTER</p>
+    </div>
+  </div>
+
+</body>
+</html>
